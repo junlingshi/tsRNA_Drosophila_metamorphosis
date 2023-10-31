@@ -2,6 +2,7 @@
 library(DEseq2)
 rownames(P2_L3_g)<-P2_L3_g$Geneid
 P2_L3_g<-P2_L3_g[,-1]
+condition <- factor(c("control","control","control","treat","treat"), levels = c("control","treat"))
 colData<-data.frame(row.names=colnames(P2_L3_g),condition)
 dds<-DESeqDataSetFromMatrix(P2_L3_g,colData,design=~condition)
 dds<-DESeq(dds)
