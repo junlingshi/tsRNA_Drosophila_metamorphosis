@@ -4,7 +4,7 @@ bedtools getfasta -fi /storage/SJL/reference/tRNA/Drosophila/tRNA_modified.fasta
 /storage/SJL/software/jellyfish count -m 7 -s 376929793 -t 10 P2-1_nc.fasta
 /storage/SJL/software/jellyfish dump -c -t mer_counts.jf >P2-1_kmer.tsv
 
-### After mean values of seeds expression were calculated, we used TargetScan to predict it's targets.
+### After mean values of seeds expression were calculated, we used TargetScan to predict it's target sites.
 ### seed_top.txt, First column: seed id; Second column: seed sequence; Third sequence: species id.
 perl /storage/SJL/software/targetscan_70.pl seed_top.txt /storage/SJL/targetpredict/phyloP/fly27species_CDS.tab targetsan_CDSresults.txt
 perl /storage/SJL/software/targetscan_70.pl seed_top.txt /storage/SJL/targetpredict/phyloP/fly27species_3UTR.tab targetsan_3UTRresults.txt
