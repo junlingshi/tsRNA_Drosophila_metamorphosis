@@ -21,7 +21,7 @@ L3_class_RPKR$L3_ts1<-L3_class_RPKR$L3_ts1/570012*1000
 L3_class_RPKR$L3_ts2<-L3_class_RPKR$L3_ts2/153358*1000
 L3_class_RPKR$L3_ts3<-L3_class_RPKR$L3_ts3/308084*1000
 P1_class_RPKR$P1_ts1<-P1_class_RPKR$P1_ts1/106290*1000
-P1_class_RPKR$P1_ts3<-P1_class_RPKR$P1_ts2/233521*1000
+P1_class_RPKR$P1_ts2<-P1_class_RPKR$P1_ts2/233521*1000
 P2_class_RPKR$P2_ts1<-P2_class_RPKR$P2_ts1/684997*1000
 P2_class_RPKR$P2_ts2<-P2_class_RPKR$P2_ts2/130698*1000
 P2_class_RPKR$P2_ts3<-P2_class_RPKR$P2_ts3/434355*1000
